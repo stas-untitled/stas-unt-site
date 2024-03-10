@@ -1,11 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap')
 
-.lang>p{
+body{
+    margin: 0;
+}
+
+.lang p{
     line-height: 1.1;
 }
 h1{
+    margin-right: 10px;
+    margin-left: 10px;
     line-height: 0.8;
 }
 p{
+    margin-right: 10px;
+    margin-left: 10px;
     font-family: 'Noto Sans';
+}
+.mainmenu ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.mainmenu a{
+    background-color: #031947;
+    animation: textColorChange 1s ease-in-out;
+    -webkit-animation: textColorChangeWK 1s ease-in-out;
+    color: #b4c2cc;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.mainmenu a:hover{
+    background-color: #b4c2cc;
+    animation: textColorChange 1s ease-in-out;
+    -webkit-animation: textColorChangeWK 1s ease-in-out;
+    color: #031947;
+}
+.mainmenu li{
+    float: left;
+
+}
+@-webkit-keyframes textColorChangeWK {
+	from { color: #b4c2cc; }
+	to { color: #031947; }
+}
+@keyframes textColorChange {
+	from { color: #b4c2cc; }
+	to { color: #031947; }
 }
