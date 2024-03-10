@@ -1,4 +1,4 @@
-@import
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap')
 
 .lang>p{
     line-height: 1.1;
@@ -7,5 +7,5 @@ h1{
     line-height: 0.8;
 }
 p{
-    font-family: ubuntu;
+    font-family: 'Noto Sans';
 }
