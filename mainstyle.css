@@ -1,7 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
-    margin: 0;
+    margin: 0px;
+    background-color: #070c16;
+}
+.news{
+    background-color: #280437;
+    border: 3px;
+    border-style: solid;
+    border-color: #0c0e27;
+}
+.posttext{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 0;
+    padding-bottom: 7px;
+    color: #d1a4dc;
+}
+.br{
+    height: 2px;
+    background-color: #0b0c23;
 }
 
 .lang p{
@@ -12,14 +30,13 @@ h1, h2, h3, h4, h5, h6{
     margin-right: 10px;
     margin-left: 10px;
     line-height: 0.8;
+    color: #d1a4dc;
 }
 p{
     margin-right: 10px;
     margin-left: 10px;
     font-family: 'Noto Sans';
-}
-.posttext{
-    color: #0b0c23;
+    color: #b4c2cc;
 }
 .mainmenu ul{
     list-style-type: none;
