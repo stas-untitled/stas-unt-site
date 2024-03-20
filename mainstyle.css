@@ -4,7 +4,7 @@ body{
     margin: 0px;
     background-color: #070c16;
 }
-.news{
+.siteupds{
     background-color: #280437;
     border: 3px;
     border-style: solid;
@@ -41,16 +41,28 @@ p{
 .mainmenu ul{
     list-style-type: none;
     padding: 0px;
-    margin: 0px;
+    margin: 6px;
     overflow: hidden;
 }
-.mainmenu a{
+a[class|="icon"]{
     background-color: #031947;
     color: #b4c2cc;
     text-decoration: none;
-    padding: 15px;
+    padding: 8px;
     display: block;
     text-align: center;
+    font-family: 'Noto Sans';
+    animation: textColorUnchange 1s ease-in-out 0s 1 alternate none running;
+    -webkit-animation: textColorUnchangeWK 1s ease-in-out 0s 1 alternate none running;
+}
+.mainmenu a[class|="nonicon"]{
+    background-color: #031947;
+    color: #b4c2cc;
+    text-decoration: none;
+    padding: 29px;
+    display: block;
+    text-align: center;
+    font-family: 'Noto Sans';
     animation: textColorUnchange 1s ease-in-out 0s 1 alternate none running;
     -webkit-animation: textColorUnchangeWK 1s ease-in-out 0s 1 alternate none running;
 }
@@ -62,8 +74,12 @@ p{
 }
 .mainmenu li{
     float: left;
-
 }
+
+img{
+    display: block;
+}
+
 @-webkit-keyframes textColorChangeWK {
 	from { color: #b4c2cc; background-color: #031947;}
 	to { color: #031947; background-color: #b4c2cc;}

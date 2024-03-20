@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
-<channel>
-<title>Stad-unt's rss-feed</title>
-<link>https://stas-untitled.github.io/stas-unt-site/index.html</link>
-<description>Stas-unt's rss-feed, hosted on github pages.</description>
-<item>
-<title>20240311 site update</title>
-<link>https://stas-untitled.github.io/stas-unt-site/index.html</link>
-<guid>https://stas-untitled.github.io/stas-unt-site/index.html</guid>
-<pubDate>Mon, 11 Mar 2024 11:20 GMT</pubDate>
-<description></description>
-</item>
-</channel>
+    <channel>
+    <title>Stad-unt's rss-feed</title>
+    <link>https://stas-untitled.github.io/stas-unt-site/index.html</link>
+    <description>Stas-unt's rss-feed, hosted on github pages.</description>
+    <item>
+        <title>2024-03-20 site update</title>
+        <link>https://stas-untitled.github.io/stas-unt-site/index.html</link>
+        <guid>https://stas-untitled.github.io/stas-unt-site/index.html</guid>
+        <pubDate>Sun, 20 Mar 2024 23:10 +0700</pubDate>
+        <description>Added icon, edited title of page, learned how to flow and some updates of design
+    <item>
+        <title>2024-03-14 site update</title>
+        <link>https://stas-untitled.github.io/stas-unt-site/index.html</link>
+        <guid>https://stas-untitled.github.io/stas-unt-site/index.html</guid>
+        <pubDate>Thu, 14 Mar 2024 00:00 +0700</pubDate>
+        <description>Some design updates. Maybe I'm add a some more pages and things later.</description>
+    </item>
+    <item>
+        <title>2024-03-13 site update</title>
+        <link>https://stas-untitled.github.io/stas-unt-site/index.html</link>
+        <guid>https://stas-untitled.github.io/stas-unt-site/index.html</guid>
+        <pubDate>Wed, 13 Mar 2024 00:00 +0700</pubDate>
+        <description>I started posting something on my main web-page</description>
+    </item>
+    <item>
+        <title>2024-03-11 site update</title>
+        <link>https://stas-untitled.github.io/stas-unt-site/index.html</link>
+        <guid>https://stas-untitled.github.io/stas-unt-site/index.html</guid>
+        <pubDate>Mon, 11 Mar 2024 11:20 +0700</pubDate>
+        <description>???</description>
+    </item>
+    <item>
+        <title>2024-03-10 site update</title>
+        <link>https://stas-untitled.github.io/stas-unt-site/index.html</link>
+        <guid>https://stas-untitled.github.io/stas-unt-site/index.html</guid>
+        <pubDate>Sun, 10 Mar 2024 00:00 +0700</pubDate>
+        <description>Rss feed added sucessful.</description>
+    </item>
+    </channel>
 </rss>
