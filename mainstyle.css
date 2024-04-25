@@ -8,7 +8,8 @@ body{
     background-color: #280437;
     border: 3px;
     border-style: solid;
-    border-color: #0c0e27;
+    border-color: transparent;
+    border-radius: 15px;
 }
 .posttext{
     margin-top: 5px;
@@ -43,6 +44,7 @@ p{
     padding: 0px;
     margin: 6px;
     overflow: hidden;
+    border-radius: 5px;
 }
 a[class|="icon"]{
     background-color: #031947;
@@ -75,9 +77,21 @@ a[class|="icon"]{
 .mainmenu li{
     float: left;
 }
+.mainmenu{
+    max-width: 492px;
+    max-height: 100px;
+    display: block;
+}
 
 img{
     display: block;
+}
+.link{
+    text-decoration: none;
+    color: #d1a4dc;
+    background-color: #280437;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 @-webkit-keyframes textColorChangeWK {

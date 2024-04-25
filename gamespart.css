@@ -4,8 +4,51 @@ body{
     background-color: #1a0101;
 }
 
+.header{
+    display: block;
+    max-width: 569px;
+    max-height: 100px;
+}
+
+.newsbox{
+    background: #050a1b;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.post{
+    max-width: 500px;
+    background-color: #040816;
+    border-radius: 7px;
+}
+.postdate{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.postimage{
+    display: block;
+}
+.posttext{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.postlink{
+    text-decoration: none;
+    color: #a4b1cf
+}
+p[class|="posttext last"]{
+    padding: 5px;
+    margin: 3px;
+}
+
 h1, h2, h3, h4, h5, h6, p{
-    color: #ffffff;
+    color: #b4c2cc;
     font-family: 'Noto Sans';
     text-align: center;
 }
@@ -15,6 +58,7 @@ h1, h2, h3, h4, h5, h6, p{
     padding: 0px;
     margin: 6px;
     overflow: hidden;
+    border-radius: 10px;
 }
 a[class|="icon"]{
     background-color: #0a1132;
@@ -46,6 +90,7 @@ a[class|="icon"]{
 }
 .mainmenu li{
     float: left;
+    /*! display: block; */
 }
 
 img{
